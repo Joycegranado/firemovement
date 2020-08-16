@@ -1,0 +1,38 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: 'Fredoka One', cursive;
+  	background: url(image.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+ 	-o-background-size: cover;
+  	background-size: cover;
+}
+h1{
+	text-transform: uppercase;
+	font-size: 4.5rem;
+	-webkit-text-stroke:.25px black;
+	color: #dc3545;
+	height: 8rem;
+}
+h2{
+	font-size-adjust: 3rem;
+	-webkit-text-stroke: 2px black;
+	color: #dc3545;
+}
+.btn{
+	font-weight: 800;
+	border-radius: 400px;
+}
+.btn-danger{
+	color: white;
+	border-color: white;
+}
+.btn-danger:hover{
+	background-color: #dc3545;
+	border-width:3px;
+}
+.buffer{
+	height: 15rem
+}
